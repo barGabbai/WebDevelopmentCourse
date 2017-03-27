@@ -1,0 +1,64 @@
+body 
+{
+    direction:rtl;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+
+    
+}
+
+h1{
+    background-image:url(../images/background.jpg);
+    width:871px;
+    text-align:center;
+    font-size:30pt;
+    background-position-y:100px;
+    color:white;
+   
+}
+h1::first-letter{
+    color:black;
+    font-size:43pt;
+
+}
+
+#container b{
+font-size:16pt;
+text-decoration:underline;
+}
+
+ul{
+    margin-right:25px;
+    margin-top:10px;
+}
+#details {
+    background-color: pink;
+    width: 821px;
+    height:425px;
+    padding-right: 30px;
+    padding-top: 130px;
+    padding-left:20px;
+}
+#profile{
+    
+    -webkit-box-shadow: 20px 20px 20px 2px #4F4F4F;
+box-shadow: 10px 10px 10px 2px #4F4F4F;
+
+}
+
+#email:hover, #facebook:hover{
+
+      resize: both;
+overflow: auto;
+min-width: 70px; 
+min-height: 70px;
+}
+
+
+
+
+
+
