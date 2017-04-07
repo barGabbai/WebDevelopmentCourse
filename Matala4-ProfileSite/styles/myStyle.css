@@ -1,0 +1,156 @@
+body 
+{
+    direction:rtl;
+    align-content:center;
+}
+
+ #indexPage{
+  background-image:url(../images/bg.jpg)
+
+ }
+#container{
+
+    width:960px;
+    margin:0 auto;
+
+}
+
+#profileSite{
+    font-size:40pt;
+    text-align:center;
+    color:darkblue;
+    text-shadow: 3px 3px 10px #171717;
+
+}
+h1:first-letter{
+
+    font-size:50pt;
+    color:white;
+}
+
+
+#mainUl{
+    list-style:none;
+}
+
+nav #mainUl li{
+    display:block;
+   
+    
+    
+       
+}
+
+nav #mainUl li a{
+ display:block;
+    color: darkblue;
+    background-color:lightblue;
+    text-decoration:none;
+    
+    width:130px;
+    height:40px;
+    padding-top:15px;
+    
+    
+    text-align:center;
+    font-size:14pt;
+
+}
+
+nav #mainUl li a:hover{
+    color: black;
+    background-color:paleturquoise;
+}
+
+nav #mainUl li a:active{
+    color: black;
+    background-color:paleturquoise;
+}
+
+nav #mainUl li ul{
+    display:none;
+    position:absolute;
+    
+    
+}
+
+nav #mainUl li:hover ul{
+    display:block;
+    width:100px;
+    margin-right:130px;
+    margin-top:-55px;
+  
+}
+
+
+
+#iframe{
+
+ width:533px;
+    height:500px;
+    margin-right:214px;
+    align-content:center;
+    position:fixed;
+    display:inline-block;
+}
+
+iframe {
+    
+    
+   width:533px;
+    height:500px;
+    
+}
+
+body #infoPages{
+    background-color:transparent;
+    width:533px;
+    height:500px;
+}
+#infoHead {
+    color: black;
+    font-size: 14pt;
+}
+
+#infoHead::first-letter{
+    font-size:30pt;
+    color:white;
+    text-align:center;
+}
+
+#infoText{
+
+    font-size:12pt;
+
+}
+
+#email:hover, #facebook:hover{
+
+      resize: both;
+overflow: auto;
+min-width: 70px; 
+min-height: 70px;
+}
+
+#hobbiesUl a{
+
+    list-style-type:square;
+    text-decoration:none;
+    color:black;
+}
+
+
+#hobbiesUl a:hover{
+    color: white;
+    text-decoration:underline;
+
+}
+
+#hobbiesUl li a:active{
+    color:black;
+}
+
+.smallerText{
+
+    font-size:9pt;
+}
