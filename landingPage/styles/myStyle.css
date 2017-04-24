@@ -1,0 +1,127 @@
+body 
+{
+    direction:rtl;
+    background-image:url(../images/telem2.jpg);
+    background-repeat:no-repeat;
+    background-position-y:140px; 
+    background-position-x:-50px;
+}
+
+#container{
+    margin:0 auto;
+    width:960px;
+   
+}
+
+@font-face{
+    font-family: fontPage;
+    src: url(../fonts/Heebo-Bold.TTF);
+}
+
+h1 {
+    font-family: fontPage;
+    text-align: center;
+    font-size: 26pt;
+    color: darkslategrey;
+}
+
+h2{
+    font-family:fontPage;
+    text-align:center;
+    font-size:36pt;
+    color:darkblue;
+}
+h3{
+    font-family: fontPage;
+    text-align: center;
+    font-size: 20pt;
+    color: darkslategrey;
+    margin:20px;
+}
+
+#bold{
+    font-family: fontPage;
+    font-size: 25pt;
+    color: darkblue;
+}
+
+#bold>a{
+    color: darkblue;
+}
+
+h3 a{
+    color:darkslategray;
+}
+
+ul#middleList {
+    list-style-type:none;
+    margin-top:-300px;
+
+}
+
+ul#middleList li{
+    font-family:fontPage;
+    font-size:16pt;
+}
+
+.technologyDesign {  
+    display:inline-block;
+    margin-right:350px;
+    margin-left:-50px;
+    width:160px;
+    text-align:center;
+}
+
+#develope{
+    margin-top:290px;
+    margin-right:614px;
+}
+
+#rightList{
+    list-style-image:url(../images/bullets.jpg);
+    margin-left:300px;
+    font-size:20pt;
+}
+
+#rightList li{
+    font-family:fontPage;
+    margin-top:100px;
+}
+
+form {
+
+    width:960px;
+    font-size: 16pt;
+}
+
+label{
+    font-family:fontPage;
+    font-size:12pt;
+    margin-left:10px;
+    margin-right:17px;
+
+}
+
+#footerForm{
+    font-family:fontPage;
+    font-size:20pt;
+    text-align:center;
+    margin-top:50px;
+    padding-top:10px;
+    margin-bottom:10px;
+}
+
+footer{
+    width:960px;
+    height:80px;
+    background-color:lightblue;
+    margin-bottom:20px;
+}
+
+#send{
+    background-color:grey;
+    width:80px;
+    font-family:fontPage;
+    font-size:14pt;
+    border:none;
+}
