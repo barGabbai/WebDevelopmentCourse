@@ -1,0 +1,136 @@
+body#indexCSS
+{
+    direction:rtl;
+    width:960px;
+    margin:0 auto;
+    background-color:#dfdfdf;
+    background-image:url(../design/logo.png);
+    background-repeat:no-repeat;
+    background-position-x:-50px;
+    background-position-y:30px;
+}
+
+body#insideCSS{
+    background-color:#dfdfdf;
+    text-align:center;
+    direction:rtl;
+    font-size:14pt;
+    font-family:heebobold;
+}
+
+audio{
+    margin-right:800px;
+}
+
+p{
+    margin:20px;
+    text-align:right;
+}
+
+h1{
+    margin-bottom:30px;
+    margin-top:10px;
+    font-family:heebobold;
+    font-size:20pt;
+}
+
+@font-face {
+    font-family: 'heebobold';
+    src: url('../fonts/heebo-bold-webfont.eot');
+    src: url('../fonts/heebo-bold-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/heebo-bold-webfont.woff2') format('woff2'), url('../fonts/heebo-bold-webfont.woff') format('woff'), url('../fonts/heebo-bold-webfont.ttf') format('truetype'), url('../fonts/heebo-bold-webfont.svg#heebobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav{
+    margin-right:430px;
+    margin-top:207px;
+    width:600px;
+}
+
+#container nav ul li{
+    font-family: heebobold;
+    display:inline-block;
+    margin-left:30px;
+    font-size:14pt;
+}
+
+#container nav ul li:hover{
+    font-family: heebobold;
+    display:inline-block;
+    margin-left:30px;
+    font-size:14pt;
+    color:rebeccapurple;
+    
+}
+
+nav ul li a#home{
+    text-decoration:none;
+    color:black; 
+}
+
+nav ul li a#home:hover{
+    text-decoration:none;
+    color:rebeccapurple;
+}
+
+nav ul li a.navLinks, .graphic{
+    display:block;
+    background-color:#c8aeff;
+    text-decoration:none;
+    color:black;
+    text-align:center;
+    width:145px;
+    height:40px;
+    padding-top:15px;
+    font-size:12pt;
+    color:black;
+}
+
+nav ul li a:hover, .navLinks .graphic {
+
+    color:rebeccapurple;
+}
+
+nav ul li ul{
+    display:none;
+    position:absolute;
+}
+
+nav ul li:hover ul{
+    margin-top:2.5px;
+    display:block;
+    width:145px;
+    margin-right:-2px;
+}
+
+#inside{
+    width:960px;
+    height:400px;
+    background-color:#D8B3FF;
+    margin-top:40px;
+    margin-right:40px;
+}
+
+.projectsImages {
+    border: 2px #5B595A solid;
+    -webkit-box-shadow: 3px 3px 3px 3px #ADADAD;
+box-shadow: 3px 3px 3px 3px #ADADAD;
+}
+
+b{
+    margin-left:230px;
+}
+
+aside{
+    text-align:center;
+}
+
+aside a{
+    color:black;
+}
+
+aside a:hover{
+    color:rebeccapurple;
+}
+

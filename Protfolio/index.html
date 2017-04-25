@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>תיק העבודות שלי- בר גבאי</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+  }
+    </script>
+
+</head>
+<body id="indexCSS"> 
+    <audio controls="controls">
+        <source src="audio/myAudio.mp3" type="audio/mpeg" />
+        <source src="audio/myAudio.ogg" type="audio/ogg" />
+        Your browser does not support the audio element.
+    </audio>
+    <div id="container">
+     
+        <nav>
+            <ul>
+                <li><a id="home" href="index.html">דף הבית</a></li>
+                <li>תקשורת חזותית
+                    <ul>
+                        <li>
+                            <a class="navLinks" href="tikshoret/selfPortrait.html" target="inside">פורטרט עצמי</a>
+                        </li>
+                        <li>
+                            <a class="navLinks" href="tikshoret/finalProject.html" target="inside">פרויקט סיום</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>ארגון וייצוג ידע
+                    <ul>
+                        <li>
+                            <a class="navLinks" href="irgun/alfon.html" target="inside">"אחריי באלפון"</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>גרפיקה ממוחשבת
+                    <ul>
+                        <li>
+                            <a class="graphic" href="graphicDesign/postcard.html" target="inside">הכנת גלויה</a>
+                        </li>
+                        <li>
+                            <a class="graphic" href="graphicDesign/poster.html" target="inside">פוסטר לסרט</a>
+                        </li>
+                        <li>
+                            <a class="graphic" href="tikshoret/selfPortrait.html" target="inside">פורטרט עצמי</a>
+                        </li>
+                        <li>
+                            <a class="graphic" href="graphicDesign/newYear.html" target="inside">ברכה לשנה החדשה</a>
+                        </li>
+                        <li>
+                            <a class="graphic" href="graphicDesign/logo.html" target="inside">לוגו</a>
+                        </li>
+                        <li>
+                            <a class="graphic" href="graphicDesign/israelPoster.html" target="inside">כרזה</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <iframe src="home.html" name="inside" id="inside" frameborder="0" scrolling="no" onload="resizeIframe(this)"></iframe>
+    </div>
+</body>
+</html>
