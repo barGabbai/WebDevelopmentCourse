@@ -1,0 +1,474 @@
+
+body 
+{
+    direction:rtl;
+}
+
+#container{
+    margin:0 auto;
+    width:960px;
+}
+
+div{
+    margin-top:10px;
+}
+
+                                                  /*חלק ב' - CSS */
+
+/*חלק ב' - תרגיל 1 - מזלות*/
+
+#zodiac{
+    background-image:url(../images/Zodiac.jpg);
+    height:100px;
+    width:100px;
+    background-position-x:-470px;
+    background-position-y:-10px;
+    
+}
+
+/*חלק ב' - תרגיל 2 - aside*/
+
+#aside{
+    border:1px black solid;
+    width:335px;
+
+    padding:10px;
+}
+#aside h1{
+    background-color:lightgreen;
+    width:315px;
+    height:20px;
+    padding:10px;
+    text-align:center;
+}
+
+#aside p{
+    padding-right:30px;
+    padding-left:30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:justify;
+}
+
+#aside p::first-letter{
+    font-size:16pt;
+    color:hotpink;
+}
+
+#decoration{
+    background-image:url(../images/decorative.png);
+    background-size:300px 20px;
+    background-repeat:no-repeat;
+    width:305px;
+    height:15px;
+    padding-right:5px;
+    padding-left:5px;
+
+}
+
+/*חלק ב' - תרגיל 3 - אינסטגרם*/
+#instegram{
+    background-image:url(../images/instegram.png);
+    background-size:100px;
+    background-position-x:-50px;
+    background-repeat:no-repeat;
+    width:50px;
+    height:50px;
+}
+
+#instegram:hover{
+    background-position-x:0px;
+}
+
+/*חלק ב' - תרגיל 4 - זברה*/
+#zebra{
+border:3px solid green;
+background-color:mediumpurple;
+width:140px;
+height:190px;
+padding:5px;
+}
+
+#zebra ul{
+    list-style:none;
+}
+
+#zebra li:nth-child(Even){
+    font-size:9pt;
+    padding-right:20px;
+    padding-bottom:5px;
+    padding-top:5px;
+    color:white;
+}
+
+#zebra li:nth-child(odd){
+font-size:14pt;
+color:white;
+}
+
+#zebra:hover{
+    border:3px mediumpurple solid;
+    background-color:green;
+    width:140px;
+    height:190px;
+    padding:5px;
+}
+
+#zebra:hover ul{
+    list-style:none;
+}
+
+#zebra:hover li:nth-child(Even){
+    font-size:14pt;
+    color:white;
+    padding-right:0px;
+}
+
+#zebra:hover li:nth-child(odd){
+    font-size:9pt;
+    padding-right:20px;
+    color:white;
+}
+
+/*חלק ב' - תרגיל 5 - זומבי*/
+
+#zombie{
+    background-image:url(../images/Zombie.png);
+    background-size:auto;
+    width:100px;
+    height:150px;
+    background-position-x:200px;
+}
+
+#zombie:hover{
+    background-position-x:100px;
+}
+
+#zombie:active{
+    background-position-x:300px;
+}
+
+                                                /*חלק ג' - HTML+CSS */
+
+/*חלק ג' - תרגיל 1 - תגים סמנטיים*/
+
+#semantic{
+    background-image:url(../images/frame.jpg);
+    background-size:340px;
+    width:340px;
+    height:250px;
+}
+
+#semantic h1 {
+    font-size: 20pt;
+    text-align: center;
+    padding-top:95px;
+    padding-bottom:10px;
+}
+
+#semantic p{
+    text-align:justify;
+    font-size:10pt;
+    width:220px;
+    margin-right:60px;
+}
+/*חלק ג' - תרגיל 2 - האתר של דני*/
+
+  #myWebSite{
+      border: 5px dotted purple;
+      border-radius:50px;
+      width:450px;
+      height:190px;
+      font-size:12pt;
+  }
+
+  #myWebSite h1{
+      text-align:center;
+      font-size:24pt;
+  }
+
+  #myWebSite h2{
+      text-align:center;
+  }
+ 
+  #myWebSite h3{
+      padding-top:5px;
+      padding-bottom:5px;
+  }
+
+  #myWebSite{
+      list-style:none;
+  }
+
+  #myWebSite li{
+      color:blue;
+      font-size:11pt;
+  }
+
+  #myWebSite li:first-child{
+      list-style:none;
+      background-image:url(../images/Profile.png);
+      background-size:15px;
+      background-repeat:no-repeat;
+      background-position-x:430px;
+      padding-right:25px;
+  }
+
+  #myWebSite li:nth-child(2){
+      list-style:none;
+      background-image:url(../images/Heart.png);
+      background-size:15px;
+      background-repeat:no-repeat;
+      background-position-x:320px;
+      padding-bottom:5px;
+      padding-right:135px;
+  }
+
+  #myWebSite li:last-child{
+      list-style:none;
+      background-image:url(../images/Academic.png);
+      background-size:15px;
+      background-repeat:no-repeat;
+      background-position-x:155px;
+      text-align:left;
+      padding-left:10px;
+  }
+  
+  hr {
+      background-color:lightgrey;
+      border:none;
+  }
+
+  #rights{
+     font-size:11pt;
+     text-align:center;
+  }
+                                              /*חלק ד' - תפריטי ניווט*/
+
+/*חלק ד' - תרגיל 1 - אתר חדשות*/
+
+  #mainNav ul{
+      list-style:none;
+  } 
+
+   #mainNav ul li{
+       display:inline-block;
+       float:right;
+       color:white;
+       background-color:dimgrey;
+       font-size:11pt;
+       padding:15px 20px;
+       height:15px;
+       width:80px;
+       text-align:center;
+   }
+
+   #homeLi{
+       background-color:dimgrey;
+       background-image:url(../images/Home.png);
+       background-size:20px;
+       background-repeat:no-repeat;
+       background-position-x:50px;
+       background-position-y:10px;
+       width:80px;
+   }
+
+   #mainNav #pinkLi{
+       background-color:deeppink;
+   }
+
+
+   #lehemNav{
+       padding-top:10px;
+       margin-top:50px;
+       text-align:right;
+   }
+
+   #lehemNav li{
+       display:inline-block;
+       font-size:10pt;
+       color:deeppink;
+   }
+
+   #lehemNav ul li:after{
+       content:">";
+       color:black;
+   }
+
+   #lehemNav ul li:last-child:after{
+       content:"";
+   }
+
+   #lehemNav #lehemLi{
+       color:black;
+   }
+
+/*חלק ד' - תרגיל 2 - hit*/
+
+#hit{
+    height:150px;
+    margin-top:20px;
+}
+
+#mainHITnav
+{
+    background-color:dimgrey;
+    width:650px;
+}
+
+#mainHITnav li{
+    display:inline-block;
+    background-color:dimgrey;
+    width:120px;
+    height:25px;
+    padding-top:8px;
+    font-size:10pt;
+    color:white;
+    text-align:center;
+}
+
+li#electric{
+    width:150px;
+    text-align:center;
+}
+
+#mainHITnav ul li .firstNav{
+    display:none;
+    position:absolute;
+}
+
+#mainHITnav ul li:hover{
+    background-color:cornflowerblue;
+}
+
+#mainHITnav ul li:hover .firstNav{
+    display:block;
+    width:120px;
+    height:18px;
+    padding:5px 10px;
+    margin-right:-11px;
+    margin-top:7px;
+    font-size:10pt;
+    color:white;
+}
+
+#mainHITnav ul li .firstNav li .secondNav{
+    display:none;
+    position:absolute;
+}
+
+#mainHITnav ul li .firstNav li:hover .secondNav{
+    display:block;
+    margin-right:120px;
+    margin-top:-21px;
+    border: 1px cornflowerblue solid;
+    width:120px;
+}
+
+
+
+                                                 /*חלק ה' - טבלאות*/
+
+/*חלק ה' - תרגיל 1 - ערבוב צבעים*/
+
+td, th{
+    border: 1px solid black;
+    width:60px;
+    text-align:center;
+}
+
+#red{
+    background-color:red;
+}
+
+#yellow{
+    background-color:yellow;
+}
+
+#blue{
+    background-color:blue;
+}
+
+
+/*חלק ה' - תרגיל 2 - בישול ירקות*/
+#cookWays th#oven{
+    width:160px;
+}
+
+#cookingVegetables{
+    font-size:10pt;
+}
+
+#cookingVegetables table tr th, #cookingVegetables table tr td {
+        padding: 5px 5px;
+        width: 100px;
+        vertical-align: middle;
+}
+
+#headTable{
+    background-color:goldenrod;
+}
+
+#cookWays th:nth-child(2), #cookWays th:nth-child(3), #cookWays th:nth-child(4){
+    background-color:green;
+    color:white;
+}
+
+/*חלק ה' - תרגיל 3 - ארוחות העשר של דני*/
+
+#days th{
+    background-color:cornflowerblue;
+}
+
+tr #sandwich{
+    background-image:url(../images/sandwich.png);
+    background-size:100px;
+    background-repeat:no-repeat;
+    width:100px;
+    height:100px;
+
+}
+
+#veg{
+    background-image:url(../images/vegetable.png);
+    background-size:100px;
+    width:100px;
+    height:100px;
+}
+
+#fruit{
+    background-image:url(../images/fruit.png);
+    background-size:100px;
+    width:100px;
+    height:100px;
+}
+
+#treat{
+    background-image:url(../images/cookie.png);
+    background-size:100px;
+    width:100px;
+    height:100px;
+}
+
+#dani table{
+    border-collapse:separate;
+    width:700px;
+    table-layout:fixed;
+
+}
+
+#dani table tr td, #dani table tr th{
+    border-radius:15px;
+}
+
+                                                     /*חלק ו' - טפסים*/
+
+/*חלק ו'-תרגיל 1 HT5C3 */
+
+ label{
+    margin-top:20px;
+    display:block;
+}
+ select, input{
+     display:block;
+ }
