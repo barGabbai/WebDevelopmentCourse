@@ -1,0 +1,556 @@
+body 
+{
+    direction:ltr;
+}
+
+#container{
+    width:960px;
+    margin:auto;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('../Fonts/Lato-Regular.eot');
+  src: url('../Fonts/Lato-Regular.woff2') format('woff2'),
+       url('../Fonts/Lato-Regular.woff') format('woff'),
+       url('../Fonts/Lato-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../Fonts/Lato-Light.eot');
+  src: url('../Fonts/Lato-Light.woff2') format('woff2'),
+       url('../Fonts/Lato-Light.woff') format('woff'),
+       url('../Fonts/Lato-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Italic';
+  src: url('../Fonts/Lato-Italic.eot');
+  src: url('../Fonts/Lato-Italic.woff2') format('woff2'),
+       url('../Fonts/Lato-Italic.woff') format('woff'),
+       url('../Fonts/Lato-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../Fonts/Montserrat-Regular.eot');
+  src: url('../Fonts/Montserrat-Regular.woff2') format('woff2'),
+       url('../Fonts/Montserrat-Regular.woff') format('woff'),
+       url('../Fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#mainNav{
+    width:100%;
+    height:50px;
+    background-color:#eeeae1;
+    background-image:url(../Images/logo1.png);
+    background-size:100px;
+    background-repeat:no-repeat;
+    background-position-x:70px;
+    background-position-y:6px;
+    -webkit-box-shadow: 0px 2px 8px 0px #3d3939;
+    box-shadow:0px 2px 8px 0px #3d3939;
+}
+
+#mainNav ul{
+    list-style:none;
+    margin-left:260px;
+    width:800px;
+}
+
+#mainNav ul li {
+    display:inline-block;
+    margin-top:16px;
+}
+
+#mainNav ul li a{
+    text-decoration:none;
+    color:#444235;
+    text-align:center;
+    margin-right:77px;
+    font-family:Montserrat-Regular;
+    font-size:11pt;
+}
+
+#homeNav{
+    text-decoration:underline;
+}
+
+#secondNav {
+    z-index: -1;
+    position:relative;
+}
+
+#secondNav ul{
+    list-style:none;
+    float:right;
+
+}
+
+#secondNav ul li{
+    display:block;
+}
+
+#secondNav ul li a{
+    color: white;
+    font-family:Montserrat-Regular;
+    font-size:18pt;
+    text-decoration:none;
+
+}
+
+#secondNav li#boots{
+    background-image:url(../Images/boots.jpg);
+    background-size:400px;
+    width:400px;
+    height:100px;
+    text-align:center;
+    padding-top:80px;
+}
+
+#secondNav li#dress{
+    background-image:url(../Images/Dress.jpg);
+    background-size:800px;
+    width:400px;
+    height:100px;
+    text-align:center;
+    padding-top:80px;
+    background-position-y:210px;
+    background-position-x:-170px;
+
+}
+
+#secondNav li#sneakers{
+    background-image:url(../Images/sneakers.jpg);
+    background-size:452px;
+    width:400px;
+    height:100px;
+    text-align:center;
+    padding-top:80px;
+    background-position-y:210px;
+    background-position-x:-50px;
+
+
+}
+article#indexArticle{
+    margin-top:85px;
+    width:560px;
+    height:500px;
+    margin-right:400px;
+    background-image:url(../Images/coverImg.jpg);  
+    background-repeat:no-repeat;
+    background-size:560px; 
+    text-align:left;
+    background-position-y:-25px;
+    z-index:-2;
+    position:relative;
+
+}    
+
+article h1{
+    font-family:Montserrat-Regular;
+    font-size:30pt;
+    color:#444235;
+    text-align:justify;
+    margin-left:50px;
+    padding-top:25px;
+}
+
+article h2{
+    font-family:Montserrat-Regular;
+    font-size:19pt;
+    margin-top:20px;
+    margin-left:55px;
+    color:#444235;
+}
+
+article h3{
+    text-align:left;
+    font-family:Lato-Regular;
+    font-size:12pt;
+    padding-top:120px;
+    width:250px;
+    margin-left:50px;
+    color:#444235;
+}
+
+#articleDiv p{
+    font-family: Lato-Regular;
+    font-size:11pt;
+    width:290px;
+    margin-left:50px;
+    padding-top:10px;
+    color:#444235;
+}
+
+#articleDiv p#blog a{
+    padding-top:15px;
+    color:black;
+    margin-left:90px;
+    text-decoration:none;
+    color:#444235;
+}
+
+section h3#salesH{
+    font-family:Montserrat-Regular;
+    color:#7c7a6e;
+    font-size:18pt;
+    text-align:center;
+    margin:-12px;
+}
+
+#sales ul{
+    list-style:none;
+}
+
+#sales li#monk{
+    background-image:url(../Images/monkstraps.jpeg);
+    background-size:120px;
+    width:200px;
+    height:100px;
+}
+svg{
+    padding-right:45px;
+
+}
+
+#monk{
+    margin-left:135px;
+    -webkit-box-shadow: 0px 1px 8px 0px #7f7a7a;
+    box-shadow:0px 1px 8px 0px #7f7a7a;
+    border-radius:100px;
+    width:130px;
+    height:180px;
+    border:2px solid #b1a76d;
+    background-image:url(../Images/monkstraps.jpeg);
+    transform:scaleX(-1);
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-position-x:20px;
+    background-position-y:20px;
+}
+
+#winter{
+    margin-left:60px;
+    margin-right:60px;
+    -webkit-box-shadow: 0px 1px 8px 0px #7f7a7a;
+    box-shadow:0px 1px 8px 0px #7f7a7a;
+    border-radius:100px;
+    width:130px;
+    height:180px;
+    border:2px solid #b1a76d;
+    background-image:url(../Images/2015winter.jpg);
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-position-x:15px;
+    background-position-y:40px;
+}
+
+#bagua{
+    -webkit-box-shadow: 0px 1px 8px 0px #7f7a7a;
+    box-shadow:0px 1px 8px 0px #7f7a7a;
+    border-radius:100px;
+    width:130px;
+    height:180px;
+    border:2px solid #b1a76d;
+    background-image:url(../Images/bagua.jpg);
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-position-x:15px;
+    background-position-y:35px;
+}
+
+section{
+    -webkit-box-shadow: 0px 2px 12px 0px #7f7a7a;
+    box-shadow:0px 2px 12px 0px #7f7a7a; 
+    margin-top:-45px;
+    padding:9px;
+}
+
+section ul{
+    list-style:none;
+}
+
+section ul li{
+    display:inline-block;
+    float:left;
+    padding-top:5px;
+}
+
+section ul li a{
+    padding-right:130px;
+    color:#908e84;
+    font-family:Lato-Regular;
+    text-decoration:none;
+    font-size:13pt;
+    text-align:center;
+
+}
+
+li#monkStraps{
+    margin-left:172px;
+}
+
+li#enterLine{
+
+    padding-right:142px;
+    padding-left:25px;
+    width:100px;
+    
+}
+li#enterLine span{
+    padding-left:8px;
+    font-family:Lato-Regular;
+}
+
+section p{
+    font-family:Lato-Regular;
+    padding-top:60px;
+    margin-left:715px;
+    font-size:9pt;
+    color:#908e84;
+}
+
+h3#memberH{
+    font-family:Montserrat-Regular;
+    font-size:18pt;
+    color:#7c7a6e;
+    text-align:center;
+    margin-top:-13px;
+    margin-bottom:-13px;
+}
+
+footer{
+    margin-top:50px;
+}
+
+#member p{
+    font-family:Lato-Light;
+    font-size:14pt;
+    color:#6d6c67;
+    width:500px;
+    text-align:center;
+    padding-left:200px;
+}
+
+#bootlegMember{
+    font-family:Lato-Italic;
+    font-size:15pt;
+}
+
+#Text1{
+    width:450px;
+    height:40px;
+    margin-left:129px;
+    margin-top:10px;
+    border:2px lightgrey solid;
+    text-align:center;
+    font-family:Lato-Italic;
+    font-size:13pt;
+    color:#bab8b5;
+}
+
+#Submit1{
+    height:46px;
+    position:absolute;
+    margin-top:10px;
+    font-family:Lato-Regular;
+    font-size:13pt;
+    width:222px;
+    text-align:center;
+    background-color:#847a5f;
+    border:none;
+    color:white;
+}
+
+#footer{
+    margin-left:-115px;
+    background-color:#ecece4;
+    background-size:100%;
+    width:1200px;
+    height:230px;
+}
+
+#footerNav{
+    margin-left:100px;
+}
+
+ul#costumer, ul#account, #shopsDealers{
+    list-style:none;
+    padding:30px;
+}
+
+li#footerLiCostumer, li#footerLiAccount, li#footerLiSandD{
+    color:#7c7a6e;
+    font-family:Montserrat-Regular;
+    font-size:16pt;
+    padding:30px;
+}
+
+#footerNav ul li.secondLiFooter{
+    display:block;
+    color:#7c7a6e;
+    font-family:Lato-Light;
+    font-size:13pt;
+    padding-top:15px;
+}
+
+#footerNav ul li a{
+    text-decoration:none;
+    color:#7c7a6e;
+}
+
+#footerLiCostumer{
+    margin-top:100px;
+}
+
+#costumer{
+    margin-top:-50px;
+}
+#footerLiAccount {
+    margin-left:310px;
+    margin-top:-218px;
+}
+
+#account{
+    margin-left:310px;
+    margin-top:-50px;
+}
+
+#footerLiSandD{
+    margin-left:510px;
+    margin-top:-218px;
+}
+
+#shopsDealers{
+    margin-left:510px;
+    margin-top:-50px;
+
+}
+
+#contactUs{
+    margin-left:900px;
+    margin-top:-197px;
+    width:180px;
+    border:2px solid lightgrey;
+}
+
+#contactUs ul li{
+    font-family:Lato-Italic;
+    color:#9d9b91;
+    font-size:13pt;
+}
+
+#contactUs ul li#contactH{
+    font-family:Montserrat-Regular;
+    color:#7c7a6e;
+    font-size:16pt;
+}
+
+#contactUs ul{
+    list-style:none;
+}
+
+.contactUsH4{
+    font-family:Lato-light;
+    font-size:14pt;
+    padding-bottom:3px;
+    color:#7c7a6e;
+}
+
+.insideLiFooter{
+    text-align:center;
+    padding-bottom:10px;
+    color:lightgray;
+
+}
+
+#contactH{
+    padding:8px 8px 14px 14px;
+}
+
+#bottomFooter{
+    background-image:url(../Images/logo2.png);
+    background-size:140px;
+    background-repeat:no-repeat;
+    background-color:#847a5f;
+    background-position-x:center;
+    width:1200px;
+    height:50px;
+}
+
+
+
+#aboutCover{
+    background-image:url(../Images/AboutCover.jpeg);
+    width:820px;
+    height:250px;
+    background-size:1200px;
+    background-repeat:no-repeat;
+    margin-left:75px;
+    margin-bottom:15px;
+    background-position-x:-280px;
+    background-position-y:-200px;
+}
+#aboutArticle h1{
+    color:#444235;
+    font-family:Montserrat-Regular;
+    font-size:25pt;
+    margin-left:76px;
+}
+
+#aboutArticle h2{
+    color:#7c7a6e;
+    font-family:Montserrat-Regular;
+    font-size:18pt;
+    text-align:center;
+    margin-left:-50px;
+    margin-top:-10px;
+    margin-bottom:-10px;
+}
+
+#aboutArticle p{
+    width:820px;
+    margin-left:75px;
+    font-family:Lato-Light;
+    font-size:14pt;
+    padding-bottom:20px;
+    color:#444235;
+    line-height:115%;
+    
+}
+
+#borderP{
+    font-family:Lato-Regular;
+    font-size:16pt;
+    color:#5a5954;
+    border: 2px solid #b7b7b7;
+    width:820px;
+    height:200px;
+    margin-left:75px;
+    padding:20px;
+    line-height:115%;
+    font-weight:bold;
+    margin-bottom:20px;
+
+}
+
+#borderP h3{
+    font-size:20pt;
+    padding-bottom:15px;
+    margin-left:-1px;
+    margin-top:-110px;
+}
+
+#lastP{
+    margin-bottom:-90px;
+}

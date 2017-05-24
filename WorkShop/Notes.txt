@@ -1,0 +1,4 @@
+Montserrat Regular -  כל הכותרות ובעמוד אודות כל הטקסט שבמסגרת
+Lato Regular - כל הטקסטים
+Lato Light רק בפוטר
+Lato Italic בפקד של צור הקשר
